@@ -1,0 +1,40 @@
+/* Стили для header */
+.my-header {
+    background-color: red;
+    height: 100px;
+}
+
+/* Стили для заголовка h1 */
+.my-h1 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+/* Стили для блока main */
+.my-main {
+    background-color: blue;
+    font-size: 18px;
+    height: 300px;
+    color: white;
+}
+
+/* Стили для footer */
+.my-footer {
+    background-color: green;
+    font-size: 18px;
+    height: 100px;
+    color: white;
+}
+
+#copyright > span {
+   
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #copyright {
+    clear: both;
+    padding-top: 40px;
