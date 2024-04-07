@@ -1,0 +1,69 @@
+/* Стили для header */
+.my-header {
+    background-color: red;
+    height: 150px;
+}
+
+/* Стили для заголовка h1 */
+.my-h1 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+/* Стили для блока main */
+.my-main {
+    background-color: blue;
+    font-size: 18px;
+    height: 300px;
+    color: white;
+     /* Чтобы занимал оставшееся пространство */
+     flex-grow: 1;
+     
+    
+}
+
+/* Стили для footer */
+.my-footer {
+    background-color: green;
+    font-size: 18px;
+    height: 150px;
+    color: white; 
+    /* Чтобы footer не уменьшался */
+    flex-shrink: 0;
+    
+}
+
+#copyright > span {
+   
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #copyright {
+    clear: both;
+    padding-top: 40px;
+  }
+
+  .my-body {
+            margin: 0;
+            color: #fff;
+            /* Растягиваем body по высоте html */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+ }
+ 
+ 
+
+#btnContactUs { 
+    font-size: 18px; cursor: pointer; font-family: 'Conv_PFDinDisplayPro-Reg'; 
+    text-transform: uppercase;  padding: 18px; background: #f1c40f; color: white; 
+    border-radius: 10px; /* Закругление углов */
+    margin: 100px auto; /* Верхний и нижний отступ по 100px, горизонтальное центрирование */
+    display:block; clear:both; text-align:center; /*Центрируем по горизонтали */
+}
+#btnContactUs:hover {color:black;} /* Изменение цвета текста при наведении*/
+
