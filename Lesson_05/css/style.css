@@ -1,0 +1,25 @@
+/* Внешний квадрат */
+.outer-square {
+    width: 600px;
+    height: 600px;
+    background-color: #f0f0f0;
+    margin-top: 320px; /* Фиксированный отступ сверху */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20%; /* Положение посередине */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Внутренний квадрат */
+.inner-square {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    position: absolute;
+    top: 10%; /* Положение посередине */
+}
+
+

@@ -1,0 +1,20 @@
+.square {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background: linear-gradient(to top, #000, #fff);
+}
+.y-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}

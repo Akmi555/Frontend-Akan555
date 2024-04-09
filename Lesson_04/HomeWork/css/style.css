@@ -15,7 +15,7 @@
 .my-main {
     background-color:#b637a5b9;
     font-size: 18px;
-    height: 300px;
+    min height: 300px;
     color: white;
      /* Чтобы занимал оставшееся пространство */
      flex-grow: 1;
