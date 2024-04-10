@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: space-between; /*Элементы будут иметь равное пространство между ними. Первый элемент будет выровнен с началом контейнера, а последний — с его концом */
+}
+
+.block {
+    height: 300px;
+    width: calc(20% - 10px); /* 20% Ширина для каждого блока с полем 10 пикселей. */
+    margin: 5px;
+}
+
+.block_red {
+    background-color: red;
+}
+
+.block_green {
+    background-color: green;
+}
+
+.block_blue {
+    background-color: blue;
+}
+
+.block_yellow {
+    background-color: yellow;
+}
+
+.block_black {
+    background-color: black;
+}

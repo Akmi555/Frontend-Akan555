@@ -1,0 +1,15 @@
+.flex-container {
+    margin-top: 20%;  /*отступ сверху */
+    
+    position: absolute;                /*центровка */
+    left: 50%;                         /*центровка */
+    transform: translate(-50%, -50%);  /*центровка */
+    display: flex;                     /*центровка */
+    gap: 20px;  /*расстояние между квадратами */
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+}

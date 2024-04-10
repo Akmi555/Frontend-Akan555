@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    /* Растягиваем body по высоте html */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header, nav, footer {
+    height: 150px; /* Fixed height */
+  }
+  
+  header {
+    background-color: rgba(55, 113, 189, 0.575);
+  }
+  
+  nav {
+    background-color: lightpink;
+  }
+  
+  .content-container {
+    display: flex;
+  }
+  .content-container_2 {
+    display: flex;
+  }
+  section {
+    flex-grow: 1; /* Flexible height */
+    background-color: rgb(224, 238, 144);
+  }
+  
+  aside {
+     flex-grow: 1; /* Flexible height */
+     background-color: lightyellow;
+  }
+  
+  article {
+     flex-grow: 1; /* Flexible height */
+     background-color: rgb(235, 84, 184);
+  }
+  
+  footer {
+     background-color: rgb(128, 224, 144);
+     
+  }
+  
