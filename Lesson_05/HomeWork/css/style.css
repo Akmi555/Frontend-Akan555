@@ -14,7 +14,7 @@
     height: 50px;
     background-color: yellow;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /*центровка по горизонтали */
+    align-items: center;  /*центровка по вертикали */
     color: black;
 }
